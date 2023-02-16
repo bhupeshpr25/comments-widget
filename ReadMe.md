@@ -15,6 +15,8 @@ comments-widget is a comment section project. It includes features like comment,
 
 ## Demo
 
+https://comments-section-widget.vercel.app
+
 ## Future scope
 
 - make the app responsive
