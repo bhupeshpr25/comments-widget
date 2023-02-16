@@ -1,0 +1,138 @@
+.comment {
+  position: relative;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.scoreColumn {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  width: 60px;
+  margin-left: 28px;
+}
+
+.avatar {
+  max-width: 30px;
+  height: auto;
+}
+
+.username,
+.timestamp {
+  margin-left: 10px;
+}
+
+.score {
+  color: gray;
+  font-weight: bold;
+  margin-left: 60px;
+}
+
+.upvote,
+.downvote {
+  margin-top: 10px;
+}
+
+.replyButton,
+.shareButton,
+.editButton {
+  margin-left: 10px;
+}
+
+.deleteButton,
+.editButton,
+.replyButton,
+.upvote,
+.downvote,
+.updateButton {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.deleteButton {
+  color: gray;
+  margin-left: 10px;
+}
+
+.username,
+.replyButton,
+.shareButton,
+.flex-item,
+.editButton,
+.deleteButton {
+  font-weight: 700;
+}
+
+.commentContent {
+  color: black;
+}
+
+.username {
+  color: #009ae8;
+}
+
+.replyButton,
+.shareButton,
+.timestamp,
+.flex-item,
+.editButton,
+.reply-username {
+  color: gray;
+}
+
+.commentHeader {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.commentReplies {
+  display: inline-block;
+  width: 94%;
+  position: relative;
+  margin-left: 40px;
+}
+
+.userTag {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: relative;
+  right: 90px;
+  top: 100px;
+  background-color: gray;
+  text-align: center;
+  font-size: small;
+  color: white;
+  width: 35px;
+  height: 18px;
+}
+
+.reply-username {
+  font-weight: 900;
+}
+
+.disabled-upvote {
+  cursor: default !important;
+}
+
+.disabled {
+  cursor: default !important;
+  opacity: 50% !important;
+}
+
+.updateRow {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.updateButton {
+  position: absolute !important;
+  margin-right: 15px;
+  right: 0px;
+  font-size: large;
+  color: white;
+  background-color: gray;
+  border-color: transparent;
+  border-radius: 10px;
+  width: 110px;
+  height: 50px;
+}

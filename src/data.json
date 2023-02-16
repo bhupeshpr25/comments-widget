@@ -1,0 +1,78 @@
+{
+  "currentUser": {
+    "image": {
+      "png": "./assets/avatars/image-user.png"
+    },
+    "username": "Bhupesh"
+  },
+  "comments": [
+    {
+      "id": 1,
+      "content": "Dude thank you so much for making this, now if only it was possible to somehow get this to stay as the top discussion so that new people don't make mistakes.",
+      "createdAt": "7 hours ago",
+      "score": 4,
+      "user": {
+        "image": {
+          "png": "./assets/avatars/image-clueless.png"
+        },
+        "username": "Clueless-kun"
+      },
+      "replies": [
+        {
+          "id": 2,
+          "content": "Working in it. It will eventually be linkable on the side of all discussions.",
+          "createdAt": "7 hours ago",
+          "score": 2,
+          "replyingTo": "Clueless-kun",
+          "user": {
+            "image": {
+              "png": "./assets/avatars/image-nebuchadnezzer.png"
+            },
+            "username": "Nebuchadnezzer (AFTP)"
+          }
+        },
+        {
+          "id": 3,
+          "content": "It should be up now :)",
+          "createdAt": "6 hours ago",
+          "score": 1,
+          "replyingTo": "Clueless-kun",
+          "user": {
+            "image": {
+              "png": "./assets/avatars/image-nebuchadnezzer.png"
+            },
+            "username": "Nebuchadnezzer (AFTP)"
+          },
+          "replies": [
+            {
+              "id": 4,
+              "content": "thanks, hopefully people check it. I'm really tired right now so gn.",
+              "createdAt": "6 hours ago",
+              "score": 0,
+              "replyingTo": "Nebuchadnezzer (AFTP)",
+              "user": {
+                "image": {
+                  "png": "./assets/avatars/image-clueless.png"
+                },
+                "username": "Clueless-kun"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "content": "If I could recommend this discussion more than once, I would.",
+      "createdAt": "1 month ago",
+      "score": 2,
+      "user": {
+        "image": {
+          "png": "./assets/avatars/image-tony.png"
+        },
+        "username": "Tony Hue"
+      },
+      "replies": []
+    }
+  ]
+}
