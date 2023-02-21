@@ -35,7 +35,7 @@ export default function NewReply({
             setNewReply(false);
           }}
         >
-          REPLY
+          Reply
         </button>
       </div>
     </div>

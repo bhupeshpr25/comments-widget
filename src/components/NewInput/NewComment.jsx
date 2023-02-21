@@ -31,7 +31,7 @@ export default function NewComment({ addNewComment, currentUser }) {
             addNewComment(newComment);
           }}
         >
-          SEND
+          Send
         </button>
       </div>
     </div>

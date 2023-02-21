@@ -41,10 +41,10 @@ export default function DeleteModal({ id, setDeleteComment, setData, data }) {
         <div>This action cannot be undone</div>
         <div className="buttonsRow">
           <span id="cancel" onClick={() => setDeleteComment(false)}>
-            NO, CANCEL
+            Cancel
           </span>
           <span id="confirm" onClick={() => deleteComment()}>
-            YES, DELETE
+            Delete
           </span>
         </div>
       </div>

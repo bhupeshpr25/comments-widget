@@ -84,7 +84,6 @@ function App() {
   };
 
   const addNewComment = (content) => {
-    if (!/\S/.test(content)) return;
     let temp = data;
     currentId += 1;
     temp.comments.push({
